@@ -8,7 +8,7 @@ contesto: cucina & ricetta della nonna
 - Controllare la lista degli ingredienti sulla ricetta 
 - Dirigersi verso il frigo
 - Apro il frigo 
-- SCROLLO la lista degli ingredienti  
+- SCORRO la lista degli ingredienti  
     - ? SE in frigo gli ingredienti ci sono 
         - inizio a cucinare
     - : ALTRIMENTI
@@ -17,14 +17,14 @@ contesto: cucina & ricetta della nonna
         - andare alla coop a comprare gli ingredienti mancanti
         - tornare a casa
 - Inizio a cucinare
-- Prendere gli arnesi da cucina 
-- Faccio il ragu
-   - prendere padella
-   - mettere olio 
-   - pulire le verdure
-   - tagliare le verdure 
-   - buttare tutto in padella
-   - accendere il fuoco
+    - Prendere gli arnesi da cucina 
+    - Faccio il ragu
+        - prendere padella
+        - mettere olio 
+        - pulire le verdure
+        - tagliare le verdure 
+        - buttare tutto in padella
+        - accendere il fuoco
         - ? SE il soffrito raggiunge colorazione "X" 
             - Aggiungere carne tritata
             - Aggiungere salsa di pomodoro
@@ -32,10 +32,9 @@ contesto: cucina & ricetta della nonna
             - Cuocere fino a restrizione sugo 
             - Far riposare 4 ore
         - : ALTRIMENTI lascia cuacere fino a colarazione "X"
-- FINCHE il ragu cuoce 
-    - fai la bescemella
-    - prendi teglia 
-- ? SE è pronto il ragu E anche la besciamella
+- FINCHè il ragu cuoce 
+    - fai la besciamella
+- ? SE è pronto il ragù E anche la besciamella
     - prendi la teglia
     - fare struttura
         - ragu
